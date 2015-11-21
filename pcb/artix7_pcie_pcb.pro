@@ -1,4 +1,4 @@
-update=Tue 15 Sep 2015 06:39:09 PM PDT
+update=Fri 30 Oct 2015 03:04:22 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=/home/wbraun/projects/wbraun_kicad_library/wbraun_ic_lib
 LibName31=/home/wbraun/projects/stray_kicad_library/xilinx-artix7
+LibName32=/home/wbraun/projects/stray_kicad_library/FMC_connector-cache

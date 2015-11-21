@@ -30,12 +30,13 @@ LIBS:contrib
 LIBS:valves
 LIBS:wbraun_ic_lib
 LIBS:xilinx-artix7
+LIBS:FMC_connector-cache
 LIBS:artix7_pcie_pcb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 10
 Title ""
 Date ""
 Rev ""

@@ -30,12 +30,13 @@ LIBS:contrib
 LIBS:valves
 LIBS:wbraun_ic_lib
 LIBS:xilinx-artix7
+LIBS:FMC_connector-cache
 LIBS:artix7_pcie_pcb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -80,5 +81,26 @@ S 3400 900  1000 1000
 U 56186E8F
 F0 "FPGA Transceivers" 60
 F1 "FPGA_transceivers.sch" 60
+$EndSheet
+$Sheet
+S 3450 2200 950  1300
+U 562EA200
+F0 "MyriadRF IO" 60
+F1 "myriadRF_IO.sch" 60
+F2 "RF_CLK" I R 4400 2400 50 
+F3 "TX_CLK" I R 4400 2600 50 
+F4 "RX_CLK" I R 4400 2800 50 
+$EndSheet
+$Sheet
+S 5000 900  1000 1000
+U 56341AF3
+F0 "FPGA Config" 50
+F1 "FPGA_Config.sch" 50
+$EndSheet
+$Sheet
+S 5100 3600 900  1100
+U 5634E8F5
+F0 "Clocking" 50
+F1 "clock_gen.sch" 50
 $EndSheet
 $EndSCHEMATC
