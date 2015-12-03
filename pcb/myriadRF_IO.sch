@@ -29,14 +29,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wbraun_ic_lib
-LIBS:xilinx-artix7
-LIBS:FMC_connector-cache
+LIBS:pgmfoot
 LIBS:artix7_pcie_pcb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 10
+Sheet 8 12
 Title ""
 Date ""
 Rev ""
@@ -743,9 +742,9 @@ TXD10
 Text Label 5550 3400 2    50   ~ 0
 TXD11
 Text Label 5550 3500 2    50   ~ 0
-TXCLK
+TXCLK_FPGA
 Text Label 5550 3700 2    50   ~ 0
-RXCLK
+RXCLK_FPGA
 Text Label 5550 3900 2    50   ~ 0
 RXIQSEL
 Text Label 5550 4000 2    50   ~ 0
@@ -812,12 +811,6 @@ Text Label 5550 6000 2    50   ~ 0
 TXEN
 Text Label 5550 6100 2    50   ~ 0
 RXEN
-Text GLabel 10100 1300 2    50   Input ~ 0
-RF_CLK
-Text GLabel 10100 1500 2    50   Input ~ 0
-TX_CLK
-Text GLabel 10100 1700 2    50   Input ~ 0
-RX_CLK
 Wire Wire Line
 	10100 1300 9700 1300
 Wire Wire Line
@@ -830,4 +823,24 @@ Text Label 9700 1500 2    50   ~ 0
 TXCLK
 Text Label 9700 1700 2    50   ~ 0
 RXCLK
+Text HLabel 10100 1300 2    60   Input ~ 0
+RF_CLK
+Text HLabel 10100 1500 2    60   Input ~ 0
+TX_CLK
+Text HLabel 10100 1700 2    60   Input ~ 0
+RX_CLK
+Text Notes 2100 7150 0    60   ~ 0
+80[S] denotes receptacle, this is correct
+Wire Wire Line
+	9700 1900 10100 1900
+Text Label 9700 1900 2    60   ~ 0
+TXCLK_FPGA
+Text HLabel 10100 1900 2    60   Input ~ 0
+TX_CLK_FPGA
+Wire Wire Line
+	9700 2100 10100 2100
+Text Label 9700 2100 2    60   ~ 0
+RXCLK_FPGA
+Text HLabel 10100 2100 2    60   Input ~ 0
+RX_CLK_FPGA
 $EndSCHEMATC

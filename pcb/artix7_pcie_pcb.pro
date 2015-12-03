@@ -1,4 +1,4 @@
-update=Fri 30 Oct 2015 03:04:22 PM PDT
+update=Wednesday, December 02, 2015 'PMt' 07:04:35 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,6 +58,15 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/home/wbraun/projects/wbraun_kicad_library/wbraun_ic_lib
-LibName31=/home/wbraun/projects/stray_kicad_library/xilinx-artix7
-LibName32=/home/wbraun/projects/stray_kicad_library/FMC_connector-cache
+LibName30=/Users/wbraun/Projects/wbraun_kicad_library/wbraun_ic_lib
+LibName31=/Users/wbraun/Downloads/CHECK CAREFULLY AGAINST TAG-CONNECT SPEC AND USE AT YOUR OWN RISK/KiCad/Kicad another/pgmfoot
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=../schematic/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

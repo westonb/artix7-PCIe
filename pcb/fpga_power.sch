@@ -29,14 +29,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wbraun_ic_lib
-LIBS:xilinx-artix7
-LIBS:FMC_connector-cache
+LIBS:pgmfoot
 LIBS:artix7_pcie_pcb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 4 12
 Title ""
 Date ""
 Rev ""
@@ -160,7 +159,7 @@ Connection ~ 9750 1350
 Connection ~ 10050 1350
 Connection ~ 10350 1350
 Wire Wire Line
-	8850 1050 8850 950 
+	8850 900  8850 1050
 Wire Wire Line
 	8850 950  8650 950 
 $Comp
@@ -266,7 +265,7 @@ Connection ~ 9750 2250
 Connection ~ 10050 2250
 Connection ~ 10350 2250
 Wire Wire Line
-	8850 1950 8850 1850
+	8850 1800 8850 1950
 Wire Wire Line
 	8850 1850 8650 1850
 $Comp
@@ -372,7 +371,7 @@ Connection ~ 9750 3150
 Connection ~ 10050 3150
 Connection ~ 10350 3150
 Wire Wire Line
-	8850 2850 8850 2750
+	8850 2650 8850 2850
 Wire Wire Line
 	8850 2750 8650 2750
 Wire Wire Line
@@ -719,7 +718,7 @@ Connection ~ 7100 1350
 Connection ~ 7400 1350
 Connection ~ 7700 1350
 Wire Wire Line
-	6200 1050 6200 950 
+	6200 900  6200 1050
 Wire Wire Line
 	6200 950  6000 950 
 $Comp
@@ -825,7 +824,7 @@ Connection ~ 7100 2250
 Connection ~ 7400 2250
 Connection ~ 7700 2250
 Wire Wire Line
-	6200 1950 6200 1850
+	6200 1800 6200 1950
 Wire Wire Line
 	6200 1850 6000 1850
 $Comp
@@ -931,7 +930,7 @@ Connection ~ 7100 3150
 Connection ~ 7400 3150
 Connection ~ 7700 3150
 Wire Wire Line
-	6200 2850 6200 2750
+	6200 2700 6200 2850
 Wire Wire Line
 	6200 2750 6000 2750
 Text Label 6000 950  2    60   ~ 0
@@ -973,7 +972,7 @@ $EndComp
 Wire Wire Line
 	10650 4050 10650 4150
 Wire Wire Line
-	10650 3750 10650 3650
+	10650 3600 10650 3750
 Wire Wire Line
 	10650 3650 10450 3650
 Text Label 10450 3650 2    60   ~ 0
@@ -1137,7 +1136,7 @@ F 3 "" H 6800 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6800 3700 6800 3600
+	6800 3550 6800 3700
 Wire Wire Line
 	6800 3600 6600 3600
 Text Label 6600 3600 2    60   ~ 0
@@ -1247,7 +1246,7 @@ Connection ~ 7700 4800
 Connection ~ 8000 4800
 Connection ~ 8300 4800
 Wire Wire Line
-	6200 4500 6200 4400
+	6200 4300 6200 4500
 Wire Wire Line
 	6200 4400 6000 4400
 Wire Wire Line
@@ -1305,7 +1304,7 @@ $EndComp
 Wire Wire Line
 	10350 4800 10350 4900
 Wire Wire Line
-	10350 4500 10350 4400
+	10350 4300 10350 4500
 Wire Wire Line
 	10150 4400 10650 4400
 Text Label 10150 4400 2    60   ~ 0
@@ -1547,4 +1546,172 @@ Wire Wire Line
 	1050 4800 1050 4900
 Text Label 1000 4600 2    60   ~ 0
 VCCADC
+Text Notes 1350 6600 0    60   ~ 0
+DDR-3 on bank 35, 1.5V IO. All others 3.3V
+$Comp
+L +1V0 #PWR?
+U 1 1 5660B5F1
+P 6800 3550
+F 0 "#PWR?" H 6800 3400 50  0001 C CNN
+F 1 "+1V0" H 6800 3690 50  0000 C CNN
+F 2 "" H 6800 3550 60  0000 C CNN
+F 3 "" H 6800 3550 60  0000 C CNN
+	1    6800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1V0 #PWR?
+U 1 1 5660B69F
+P 10350 4300
+F 0 "#PWR?" H 10350 4150 50  0001 C CNN
+F 1 "+1V0" H 10350 4440 50  0000 C CNN
+F 2 "" H 10350 4300 60  0000 C CNN
+F 3 "" H 10350 4300 60  0000 C CNN
+	1    10350 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1V2 #PWR?
+U 1 1 5660B8CE
+P 5550 5300
+F 0 "#PWR?" H 5550 5150 50  0001 C CNN
+F 1 "+1V2" H 5550 5440 50  0000 C CNN
+F 2 "" H 5550 5300 60  0000 C CNN
+F 3 "" H 5550 5300 60  0000 C CNN
+	1    5550 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1V0 #PWR?
+U 1 1 5660B97C
+P 7300 5300
+F 0 "#PWR?" H 7300 5150 50  0001 C CNN
+F 1 "+1V0" H 7300 5440 50  0000 C CNN
+F 2 "" H 7300 5300 60  0000 C CNN
+F 3 "" H 7300 5300 60  0000 C CNN
+	1    7300 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1V8 #PWR?
+U 1 1 5660BA2A
+P 5250 6000
+F 0 "#PWR?" H 5250 5850 50  0001 C CNN
+F 1 "+1V8" H 5250 6140 50  0000 C CNN
+F 2 "" H 5250 6000 60  0000 C CNN
+F 3 "" H 5250 6000 60  0000 C CNN
+	1    5250 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1V8 #PWR?
+U 1 1 5660BAD8
+P 6200 4300
+F 0 "#PWR?" H 6200 4150 50  0001 C CNN
+F 1 "+1V8" H 6200 4440 50  0000 C CNN
+F 2 "" H 6200 4300 60  0000 C CNN
+F 3 "" H 6200 4300 60  0000 C CNN
+	1    6200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1V5 #PWR?
+U 1 1 5660BB86
+P 8850 2650
+F 0 "#PWR?" H 8850 2500 50  0001 C CNN
+F 1 "+1V5" H 8850 2790 50  0000 C CNN
+F 2 "" H 8850 2650 60  0000 C CNN
+F 3 "" H 8850 2650 60  0000 C CNN
+	1    8850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5660BC34
+P 8850 1800
+F 0 "#PWR?" H 8850 1650 50  0001 C CNN
+F 1 "+3V3" H 8850 1940 50  0000 C CNN
+F 2 "" H 8850 1800 60  0000 C CNN
+F 3 "" H 8850 1800 60  0000 C CNN
+	1    8850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5660BCE2
+P 8850 900
+F 0 "#PWR?" H 8850 750 50  0001 C CNN
+F 1 "+3V3" H 8850 1040 50  0000 C CNN
+F 2 "" H 8850 900 60  0000 C CNN
+F 3 "" H 8850 900 60  0000 C CNN
+	1    8850 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5660BD90
+P 6200 900
+F 0 "#PWR?" H 6200 750 50  0001 C CNN
+F 1 "+3V3" H 6200 1040 50  0000 C CNN
+F 2 "" H 6200 900 60  0000 C CNN
+F 3 "" H 6200 900 60  0000 C CNN
+	1    6200 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5660BE3E
+P 6200 1800
+F 0 "#PWR?" H 6200 1650 50  0001 C CNN
+F 1 "+3V3" H 6200 1940 50  0000 C CNN
+F 2 "" H 6200 1800 60  0000 C CNN
+F 3 "" H 6200 1800 60  0000 C CNN
+	1    6200 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5660BEEC
+P 6200 2700
+F 0 "#PWR?" H 6200 2550 50  0001 C CNN
+F 1 "+3V3" H 6200 2840 50  0000 C CNN
+F 2 "" H 6200 2700 60  0000 C CNN
+F 3 "" H 6200 2700 60  0000 C CNN
+	1    6200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5660C1B5
+P 10650 3600
+F 0 "#PWR?" H 10650 3450 50  0001 C CNN
+F 1 "+3V3" H 10650 3740 50  0000 C CNN
+F 2 "" H 10650 3600 60  0000 C CNN
+F 3 "" H 10650 3600 60  0000 C CNN
+	1    10650 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 6200 950 
+Connection ~ 8850 950 
+Connection ~ 8850 1850
+Connection ~ 6200 1850
+Connection ~ 6200 2750
+Connection ~ 8850 2750
+Connection ~ 6800 3600
+Connection ~ 6200 4400
+Wire Wire Line
+	7300 5300 7300 5400
+Wire Wire Line
+	7300 5400 7350 5400
+Wire Wire Line
+	5550 5300 5550 5400
+Wire Wire Line
+	5550 5400 5600 5400
+Wire Wire Line
+	5250 6000 5250 6100
+Wire Wire Line
+	5250 6100 5300 6100
+Connection ~ 10650 3650
+Text GLabel 6350 5000 2    60   Input ~ 0
+MGTAVTT
 $EndSCHEMATC
