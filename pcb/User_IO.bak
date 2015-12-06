@@ -620,4 +620,6 @@ Text Label 7700 5900 2    60   ~ 0
 PCIE_PERST
 Text HLabel 8100 5900 2    60   Input ~ 0
 PCIE_PERST
+Wire Wire Line
+	6500 5500 6500 5600
 $EndSCHEMATC
