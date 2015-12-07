@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 12
+Sheet 5 13
 Title ""
 Date ""
 Rev ""
@@ -146,97 +146,97 @@ Wire Wire Line
 	3400 5600 3600 5600
 Wire Wire Line
 	3400 5700 3600 5700
-Text Label 3600 3500 0    50   ~ 0
-DDR3_DQ[0]
-Text Label 3600 3600 0    50   ~ 0
-DDR3_DQ[1]
-Text Label 3600 3700 0    50   ~ 0
-DDR3_DQ[2]
-Text Label 3600 3800 0    50   ~ 0
-DDR3_DQ[3]
-Text Label 3600 4200 0    50   ~ 0
-DDR3_DQ[4]
-Text Label 3600 4300 0    50   ~ 0
-DDR3_DQ[5]
-Text Label 3600 4400 0    50   ~ 0
-DDR3_DQ[6]
-Text Label 3600 4500 0    50   ~ 0
-DDR3_DQ[7]
-Text Label 3600 4800 0    50   ~ 0
-DDR3_DQ[8]
-Text Label 3600 4900 0    50   ~ 0
-DDR3_DQ[9]
-Text Label 3600 5000 0    50   ~ 0
-DDR3_DQ[10]
-Text Label 3600 5300 0    50   ~ 0
-DDR3_DQ[11]
-Text Label 3600 5400 0    50   ~ 0
-DDR3_DQ[12]
-Text Label 3600 5500 0    50   ~ 0
-DDR3_DQ[13]
-Text Label 3600 5600 0    50   ~ 0
-DDR3_DQ[14]
-Text Label 3600 5700 0    50   ~ 0
-DDR3_DQ[15]
-Text Label 3600 1100 0    50   ~ 0
-DDR3_ADDR[12]
-Text Label 3600 1200 0    50   ~ 0
-DDR3_ADDR[11]
 Text Label 3600 1300 0    50   ~ 0
-DDR3_ADDR[10]
-Text Label 3600 1400 0    50   ~ 0
-DDR3_ADDR[9]
-Text Label 3600 1700 0    50   ~ 0
-DDR3_ADDR[8]
-Text Label 3600 1800 0    50   ~ 0
-DDR3_ADDR[7]
-Text Label 3600 1900 0    50   ~ 0
-DDR3_ADDR[6]
+DDR3_DQ[0]
 Text Label 3600 2000 0    50   ~ 0
-DDR3_ADDR[5]
+DDR3_DQ[1]
+Text Label 3600 1100 0    50   ~ 0
+DDR3_DQ[2]
 Text Label 3600 2100 0    50   ~ 0
-DDR3_ADDR[4]
+DDR3_DQ[3]
+Text Label 3600 1200 0    50   ~ 0
+DDR3_DQ[4]
 Text Label 3600 2200 0    50   ~ 0
-DDR3_ADDR[3]
-Text Label 3600 2300 0    50   ~ 0
-DDR3_ADDR[2]
-Text Label 3600 2400 0    50   ~ 0
-DDR3_ADDR[1]
-Text Label 3600 2500 0    50   ~ 0
-DDR3_ADDR[0]
-Text Label 3600 2600 0    50   ~ 0
-DDR3_BA[2]
-Text Label 3600 2700 0    50   ~ 0
-DDR3_BA[1]
-Text Label 3600 2800 0    50   ~ 0
-DDR3_BA[0]
-Text Label 3600 2900 0    50   ~ 0
-DDR3_RAS_N
-Text Label 3600 3000 0    50   ~ 0
-DDR3_CAS_N
-Text Label 3600 3100 0    50   ~ 0
-DDR3_WE_N
-Text Label 3600 4600 0    50   ~ 0
-DDR3_RESET_N
-Text Label 3600 3200 0    50   ~ 0
-DDR3_CKE
+DDR3_DQ[5]
+Text Label 3600 1400 0    50   ~ 0
+DDR3_DQ[6]
+Text Label 3600 1800 0    50   ~ 0
+DDR3_DQ[7]
 Text Label 3600 3300 0    50   ~ 0
+DDR3_DQ[8]
+Text Label 3600 3000 0    50   ~ 0
+DDR3_DQ[9]
+Text Label 3600 3100 0    50   ~ 0
+DDR3_DQ[10]
+Text Label 3600 3400 0    50   ~ 0
+DDR3_DQ[11]
+Text Label 3600 2400 0    50   ~ 0
+DDR3_DQ[12]
+Text Label 3600 2600 0    50   ~ 0
+DDR3_DQ[13]
+Text Label 3600 2300 0    50   ~ 0
+DDR3_DQ[14]
+Text Label 3600 2500 0    50   ~ 0
+DDR3_DQ[15]
+Text Label 9950 950  0    50   ~ 0
+DDR3_ADDR[12]
+Text Label 9950 1050 0    50   ~ 0
+DDR3_ADDR[11]
+Text Label 9950 1150 0    50   ~ 0
+DDR3_ADDR[10]
+Text Label 9950 1250 0    50   ~ 0
+DDR3_ADDR[9]
+Text Label 9950 1550 0    50   ~ 0
+DDR3_ADDR[8]
+Text Label 9950 1650 0    50   ~ 0
+DDR3_ADDR[7]
+Text Label 9950 1750 0    50   ~ 0
+DDR3_ADDR[6]
+Text Label 9950 1850 0    50   ~ 0
+DDR3_ADDR[5]
+Text Label 9950 1950 0    50   ~ 0
+DDR3_ADDR[4]
+Text Label 9950 2050 0    50   ~ 0
+DDR3_ADDR[3]
+Text Label 9950 2150 0    50   ~ 0
+DDR3_ADDR[2]
+Text Label 9950 2250 0    50   ~ 0
+DDR3_ADDR[1]
+Text Label 9950 2350 0    50   ~ 0
+DDR3_ADDR[0]
+Text Label 9950 2450 0    50   ~ 0
+DDR3_BA[2]
+Text Label 9950 2550 0    50   ~ 0
+DDR3_BA[1]
+Text Label 9950 2650 0    50   ~ 0
+DDR3_BA[0]
+Text Label 9950 2750 0    50   ~ 0
+DDR3_RAS_N
+Text Label 9950 2850 0    50   ~ 0
+DDR3_CAS_N
+Text Label 9950 2950 0    50   ~ 0
+DDR3_WE_N
+Text Label 4800 4950 0    50   ~ 0
+DDR3_RESET_N
+Text Label 9950 3050 0    50   ~ 0
+DDR3_CKE
+Text Label 9950 3150 0    50   ~ 0
 DDR3_ODT
-Text Label 3600 4100 0    50   ~ 0
+Text Label 3600 1900 0    50   ~ 0
 DDR3_DM[0]
-Text Label 3600 4700 0    50   ~ 0
+Text Label 3600 3200 0    50   ~ 0
 DDR3_DM[1]
-Text Label 3600 3900 0    50   ~ 0
-DDR3_DQS[0]_P
-Text Label 3600 4000 0    50   ~ 0
-DDR3_DQS[0]_N
-Text Label 3600 5100 0    50   ~ 0
-DDR3_DQS[1]_P
-Text Label 3600 5200 0    50   ~ 0
-DDR3_DQS[1]_N
 Text Label 3600 1500 0    50   ~ 0
-DDR3_CK_P
+DDR3_DQS[0]_P
 Text Label 3600 1600 0    50   ~ 0
+DDR3_DQS[0]_N
+Text Label 3600 2700 0    50   ~ 0
+DDR3_DQS[1]_P
+Text Label 3600 2800 0    50   ~ 0
+DDR3_DQS[1]_N
+Text Label 9950 1350 0    50   ~ 0
+DDR3_CK_P
+Text Label 9950 1450 0    50   ~ 0
 DDR3_CK_N
 Wire Wire Line
 	6800 1150 7000 1150
@@ -289,9 +289,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 3950 7000 3950
 Wire Wire Line
-	5400 3650 5200 3650
-Wire Wire Line
-	5400 1150 5200 1150
+	5400 3750 5200 3750
 Wire Wire Line
 	5400 1250 5200 1250
 Wire Wire Line
@@ -317,23 +315,25 @@ Wire Wire Line
 Wire Wire Line
 	5400 2350 5200 2350
 Wire Wire Line
-	5400 2550 5200 2550
+	5400 2450 5200 2450
 Wire Wire Line
 	5400 2650 5200 2650
 Wire Wire Line
 	5400 2750 5200 2750
 Wire Wire Line
-	5400 2950 5200 2950
+	5400 2850 5200 2850
 Wire Wire Line
 	5400 3050 5200 3050
 Wire Wire Line
 	5400 3150 5200 3150
 Wire Wire Line
-	4500 3350 5400 3350
+	5400 3250 5200 3250
 Wire Wire Line
-	5400 3450 5200 3450
+	4500 3450 5400 3450
 Wire Wire Line
 	5400 3550 5200 3550
+Wire Wire Line
+	5400 3650 5200 3650
 Text Label 7000 1150 0    50   ~ 0
 DDR3_DQ[15]
 Text Label 7000 1250 0    50   ~ 0
@@ -366,49 +366,49 @@ Text Label 7000 2550 0    50   ~ 0
 DDR3_DQ[1]
 Text Label 7000 2650 0    50   ~ 0
 DDR3_DQ[0]
-Text Label 5200 1150 2    50   ~ 0
-DDR3_ADDR[12]
 Text Label 5200 1250 2    50   ~ 0
-DDR3_ADDR[11]
+DDR3_ADDR[12]
 Text Label 5200 1350 2    50   ~ 0
-DDR3_ADDR[10]
+DDR3_ADDR[11]
 Text Label 5200 1450 2    50   ~ 0
-DDR3_ADDR[9]
+DDR3_ADDR[10]
 Text Label 5200 1550 2    50   ~ 0
-DDR3_ADDR[8]
+DDR3_ADDR[9]
 Text Label 5200 1650 2    50   ~ 0
-DDR3_ADDR[7]
+DDR3_ADDR[8]
 Text Label 5200 1750 2    50   ~ 0
-DDR3_ADDR[6]
+DDR3_ADDR[7]
 Text Label 5200 1850 2    50   ~ 0
-DDR3_ADDR[5]
+DDR3_ADDR[6]
 Text Label 5200 1950 2    50   ~ 0
-DDR3_ADDR[4]
+DDR3_ADDR[5]
 Text Label 5200 2050 2    50   ~ 0
-DDR3_ADDR[3]
+DDR3_ADDR[4]
 Text Label 5200 2150 2    50   ~ 0
-DDR3_ADDR[2]
+DDR3_ADDR[3]
 Text Label 5200 2250 2    50   ~ 0
-DDR3_ADDR[1]
+DDR3_ADDR[2]
 Text Label 5200 2350 2    50   ~ 0
+DDR3_ADDR[1]
+Text Label 5200 2450 2    50   ~ 0
 DDR3_ADDR[0]
-Text Label 5200 2550 2    50   ~ 0
-DDR3_BA[2]
 Text Label 5200 2650 2    50   ~ 0
-DDR3_BA[1]
+DDR3_BA[2]
 Text Label 5200 2750 2    50   ~ 0
+DDR3_BA[1]
+Text Label 5200 2850 2    50   ~ 0
 DDR3_BA[0]
-Text Label 5200 3150 2    50   ~ 0
+Text Label 5200 3250 2    50   ~ 0
 DDR3_CKE
-Text Label 5200 2950 2    50   ~ 0
-DDR3_CK_P
 Text Label 5200 3050 2    50   ~ 0
+DDR3_CK_P
+Text Label 5200 3150 2    50   ~ 0
 DDR3_CK_N
-Text Label 5200 3550 2    50   ~ 0
-DDR3_RAS_N
-Text Label 5200 3450 2    50   ~ 0
-DDR3_CAS_N
 Text Label 5200 3650 2    50   ~ 0
+DDR3_RAS_N
+Text Label 5200 3550 2    50   ~ 0
+DDR3_CAS_N
+Text Label 5200 3750 2    50   ~ 0
 DDR3_WE_N
 Text Label 7000 3650 0    50   ~ 0
 DDR3_ODT
@@ -440,12 +440,12 @@ $EndComp
 $Comp
 L GND #PWR079
 U 1 1 561B38E8
-P 4500 3450
-F 0 "#PWR079" H 4500 3200 50  0001 C CNN
-F 1 "GND" H 4500 3300 50  0000 C CNN
-F 2 "" H 4500 3450 60  0000 C CNN
-F 3 "" H 4500 3450 60  0000 C CNN
-	1    4500 3450
+P 4500 3550
+F 0 "#PWR079" H 4500 3300 50  0001 C CNN
+F 1 "GND" H 4500 3400 50  0000 C CNN
+F 2 "" H 4500 3550 60  0000 C CNN
+F 3 "" H 4500 3550 60  0000 C CNN
+	1    4500 3550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -460,7 +460,7 @@ F 3 "" H 7800 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 3350 4500 3450
+	4500 3450 4500 3550
 Wire Wire Line
 	7800 3850 7800 3950
 Wire Wire Line
@@ -501,4 +501,6 @@ Text Label 8800 2400 2    50   ~ 0
 DDR3_CK_P
 Text Label 8800 2900 2    50   ~ 0
 DDR3_CK_N
+Wire Wire Line
+	3400 3400 3600 3400
 $EndSCHEMATC

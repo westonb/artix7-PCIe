@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 12
+Sheet 1 13
 Title ""
 Date ""
 Rev ""
@@ -361,4 +361,10 @@ Text Label 8700 4100 0    60   ~ 0
 PCIE_PERST
 Text Label 2500 1900 0    60   ~ 0
 PCIE_PERST
+$Sheet
+S 5050 5500 1250 900 
+U 5665CB54
+F0 "FPGA Ground" 60
+F1 "FPGA_gnd.sch" 60
+$EndSheet
 $EndSCHEMATC
