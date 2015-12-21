@@ -150,7 +150,7 @@ Text Label 3600 1300 0    50   ~ 0
 DDR3_DQ[0]
 Text Label 3600 2000 0    50   ~ 0
 DDR3_DQ[1]
-Text Label 3600 1400 0    50   ~ 0
+Text Label 3600 1100 0    50   ~ 0
 DDR3_DQ[2]
 Text Label 3600 2100 0    50   ~ 0
 DDR3_DQ[3]
@@ -158,7 +158,7 @@ Text Label 3600 1200 0    50   ~ 0
 DDR3_DQ[4]
 Text Label 3600 2200 0    50   ~ 0
 DDR3_DQ[5]
-Text Label 3600 1100 0    50   ~ 0
+Text Label 3600 1400 0    50   ~ 0
 DDR3_DQ[6]
 Text Label 3600 1800 0    50   ~ 0
 DDR3_DQ[7]

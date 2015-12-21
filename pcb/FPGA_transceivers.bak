@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 13
+Sheet 7 11
 Title ""
 Date ""
 Rev ""
@@ -60,13 +60,13 @@ Text Label 5200 3800 0    60   ~ 0
 PCIE_CLK_P
 Text Label 5200 3900 0    60   ~ 0
 PCIE_CLK_N
-Text Label 5200 1400 0    60   ~ 0
-PCIE_TX0_P
 Text Label 5200 1500 0    60   ~ 0
+PCIE_TX0_P
+Text Label 5200 1400 0    60   ~ 0
 PCIE_TX0_N
-Text Label 5200 1700 0    60   ~ 0
-PCIE_RX0_P
 Text Label 5200 1800 0    60   ~ 0
+PCIE_RX0_P
+Text Label 5200 1700 0    60   ~ 0
 PCIE_RX0_N
 $Comp
 L R R701
@@ -136,28 +136,28 @@ Wire Wire Line
 Wire Wire Line
 	8000 2900 7700 2900
 Wire Wire Line
-	5100 2000 5200 2000
+	5100 2600 5200 2600
 Wire Wire Line
-	5100 2100 5200 2100
+	5100 2700 5200 2700
 Wire Wire Line
-	5100 2300 5200 2300
+	5100 2900 5200 2900
 Wire Wire Line
-	5100 2400 5200 2400
-Text Label 5200 2000 0    60   ~ 0
+	5100 3000 5200 3000
+Text Label 5200 2600 0    60   ~ 0
 SFP_TX_P
-Text Label 5200 2100 0    60   ~ 0
+Text Label 5200 2700 0    60   ~ 0
 SFP_TX_N
-Text Label 5200 2300 0    60   ~ 0
+Text Label 5200 3000 0    60   ~ 0
 SFP_RX_P
-Text Label 5200 2400 0    60   ~ 0
+Text Label 5200 2900 0    60   ~ 0
 SFP_RX_N
 Wire Wire Line
 	5100 4100 5200 4100
 Wire Wire Line
 	5100 4200 5200 4200
-Text Label 5200 4100 0    60   ~ 0
-SFP_CLK_C_P
 Text Label 5200 4200 0    60   ~ 0
+SFP_CLK_C_P
+Text Label 5200 4100 0    60   ~ 0
 SFP_CLK_C_N
 Wire Wire Line
 	8000 3200 7700 3200
@@ -223,4 +223,6 @@ Wire Wire Line
 	8300 4650 8400 4650
 Text GLabel 5600 4900 2    60   Input ~ 0
 MGTAVTT
+Text Notes 5100 1200 0    60   ~ 0
+flipped polarity for ease of routing
 $EndSCHEMATC

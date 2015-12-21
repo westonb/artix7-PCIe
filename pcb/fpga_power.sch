@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 13
+Sheet 4 11
 Title ""
 Date ""
 Rev ""
@@ -1593,17 +1593,6 @@ F 3 "" H 6200 4300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V5 #PWR072
-U 1 1 5660BB86
-P 8850 2650
-F 0 "#PWR072" H 8850 2500 50  0001 C CNN
-F 1 "+1V5" H 8850 2790 50  0000 C CNN
-F 2 "" H 8850 2650 60  0000 C CNN
-F 3 "" H 8850 2650 60  0000 C CNN
-	1    8850 2650
-	1    0    0    -1  
-$EndComp
-$Comp
 L +3V3 #PWR073
 U 1 1 5660BC34
 P 8850 1800
@@ -1773,4 +1762,16 @@ Decoupling good for up to XC7A100T
 Text Notes 3750 7500 0    60   ~ 0
 330uF Cap: T520V337M2R5ATE025 \n2917/D/ 7343 package
 Connection ~ 7100 4500
+Connection ~ 7400 4800
+$Comp
+L +3V3 #PWR?
+U 1 1 5677CD69
+P 8850 2650
+F 0 "#PWR?" H 8850 2500 50  0001 C CNN
+F 1 "+3V3" H 8850 2790 50  0000 C CNN
+F 2 "" H 8850 2650 60  0000 C CNN
+F 3 "" H 8850 2650 60  0000 C CNN
+	1    8850 2650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
