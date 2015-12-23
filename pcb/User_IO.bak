@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 11
+Sheet 10 11
 Title ""
 Date ""
 Rev ""
@@ -185,45 +185,45 @@ Text Label 6100 2200 2    60   ~ 0
 LED2
 Text Label 6100 2500 2    60   ~ 0
 LED3
-Text Label 4700 1500 0    60   ~ 0
-LED0
-Text Label 4700 1600 0    60   ~ 0
-LED1
-Text Label 4700 1700 0    60   ~ 0
-LED2
 Text Label 4700 1800 0    60   ~ 0
+LED0
+Text Label 4700 1900 0    60   ~ 0
+LED1
+Text Label 4700 2600 0    60   ~ 0
+LED2
+Text Label 4700 2700 0    60   ~ 0
 LED3
-Text Label 4700 3200 0    60   ~ 0
-IO0
-Text Label 4700 3300 0    60   ~ 0
-IO1
-Text Label 4700 3400 0    60   ~ 0
-IO2
-Text Label 4700 3500 0    60   ~ 0
-IO3
-Text Label 4700 3600 0    60   ~ 0
-IO4
-Text Label 4700 3700 0    60   ~ 0
-IO5
 Text Label 4700 3800 0    60   ~ 0
+IO0
+Text Label 4700 3700 0    60   ~ 0
+IO1
+Text Label 4700 3600 0    60   ~ 0
+IO2
+Text Label 4700 3900 0    60   ~ 0
+IO3
+Text Label 4700 3000 0    60   ~ 0
+IO4
+Text Label 4700 3300 0    60   ~ 0
+IO5
+Text Label 4700 3200 0    60   ~ 0
 IO6
 Text Label 4700 4000 0    60   ~ 0
 IO8
-Text Label 4700 3900 0    60   ~ 0
+Text Label 4700 3100 0    60   ~ 0
 IO7
-Text Label 4700 4100 0    60   ~ 0
+Text Label 4700 2000 0    60   ~ 0
 IO9
-Text Label 4700 4200 0    60   ~ 0
+Text Label 4700 2900 0    60   ~ 0
 IO10
-Text Label 4700 4300 0    60   ~ 0
+Text Label 4700 2800 0    60   ~ 0
 IO11
-Text Label 4700 4400 0    60   ~ 0
+Text Label 4700 2300 0    60   ~ 0
 IO12
-Text Label 4700 4500 0    60   ~ 0
+Text Label 4700 2500 0    60   ~ 0
 IO13
-Text Label 4700 4600 0    60   ~ 0
+Text Label 4700 2200 0    60   ~ 0
 IO14
-Text Label 4700 4700 0    60   ~ 0
+Text Label 4700 2400 0    60   ~ 0
 IO15
 Wire Wire Line
 	7000 1600 7100 1600
@@ -255,45 +255,45 @@ Wire Wire Line
 Wire Wire Line
 	6200 2500 6100 2500
 Wire Wire Line
-	4600 1500 4700 1500
+	4700 950  4800 950 
 Wire Wire Line
-	4600 1600 4700 1600
+	4700 1050 4800 1050
 Wire Wire Line
-	4600 1700 4700 1700
+	4700 1150 4800 1150
 Wire Wire Line
-	4600 1800 4700 1800
+	4700 1250 4800 1250
 Wire Wire Line
-	4600 3200 4700 3200
+	5450 2900 5550 2900
 Wire Wire Line
-	4600 3300 4700 3300
+	5450 3000 5550 3000
 Wire Wire Line
-	4600 3400 4700 3400
+	5450 3100 5550 3100
 Wire Wire Line
-	4600 3500 4700 3500
+	5450 3200 5550 3200
 Wire Wire Line
-	4600 3600 4700 3600
+	5450 3300 5550 3300
 Wire Wire Line
-	4600 3700 4700 3700
+	5450 3400 5550 3400
 Wire Wire Line
-	4600 3800 4700 3800
+	5450 3500 5550 3500
 Wire Wire Line
-	4600 3900 4700 3900
+	5450 3600 5550 3600
 Wire Wire Line
-	4600 4000 4700 4000
+	5450 3700 5550 3700
 Wire Wire Line
-	4600 4100 4700 4100
+	5450 3800 5550 3800
 Wire Wire Line
-	4600 4200 4700 4200
+	5450 3900 5550 3900
 Wire Wire Line
-	4600 4300 4700 4300
+	5450 4000 5550 4000
 Wire Wire Line
-	4600 4400 4700 4400
+	5450 4100 5550 4100
 Wire Wire Line
-	4600 4500 4700 4500
+	5450 4200 5550 4200
 Wire Wire Line
-	4600 4600 4700 4600
+	5450 4300 5550 4300
 Wire Wire Line
-	4600 4700 4700 4700
+	5450 4400 5550 4400
 Wire Wire Line
 	7800 3100 7700 3100
 Wire Wire Line
@@ -501,15 +501,63 @@ Wire Wire Line
 Wire Wire Line
 	10000 3700 10000 3900
 Wire Wire Line
-	4600 2100 4700 2100
+	5150 1000 5250 1000
 Wire Wire Line
-	4600 2200 4700 2200
-Text Label 4700 2100 0    60   ~ 0
+	5150 1100 5250 1100
+Text Label 4700 1600 0    60   ~ 0
 B0
-Text Label 4700 2200 0    60   ~ 0
+Text Label 4700 1700 0    60   ~ 0
 B1
 Text Label 10500 3100 0    60   ~ 0
 B0
 Text Label 9800 3100 2    60   ~ 0
 B1
+Text HLabel 4700 4800 2    60   Input ~ 0
+PCIE_PERST
+Wire Wire Line
+	4600 3800 4700 3800
+Wire Wire Line
+	4600 3900 4700 3900
+Wire Wire Line
+	4600 3600 4700 3600
+Wire Wire Line
+	4600 3700 4700 3700
+Wire Wire Line
+	4600 3200 4700 3200
+Wire Wire Line
+	4600 3300 4700 3300
+Wire Wire Line
+	4600 3000 4700 3000
+Wire Wire Line
+	4600 3100 4700 3100
+Wire Wire Line
+	4600 4000 4700 4000
+Wire Wire Line
+	4600 2000 4700 2000
+Wire Wire Line
+	4600 2800 4700 2800
+Wire Wire Line
+	4600 2900 4700 2900
+Wire Wire Line
+	4600 2500 4700 2500
+Wire Wire Line
+	4600 2400 4700 2400
+Wire Wire Line
+	4600 2300 4700 2300
+Wire Wire Line
+	4600 2200 4700 2200
+Wire Wire Line
+	4600 1600 4700 1600
+Wire Wire Line
+	4600 1700 4700 1700
+Wire Wire Line
+	4600 1800 4700 1800
+Wire Wire Line
+	4600 1900 4700 1900
+Wire Wire Line
+	4600 2600 4700 2600
+Wire Wire Line
+	4600 2700 4700 2700
+Wire Wire Line
+	4600 4800 4700 4800
 $EndSCHEMATC

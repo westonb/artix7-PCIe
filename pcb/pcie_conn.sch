@@ -363,28 +363,6 @@ Text Label 6800 5500 0    60   ~ 0
 PCIE_PRSNT#1
 Text Label 6800 5700 0    60   ~ 0
 PCIE_PRSNT#2
-$Comp
-L Test_Pad TP201
-U 1 1 56510AB0
-P 6400 5500
-F 0 "TP201" H 6600 5500 60  0000 C CNN
-F 1 "Test_Pad" H 6350 5650 60  0001 C CNN
-F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 6400 5500 60  0001 C CNN
-F 3 "" H 6400 5500 60  0000 C CNN
-	1    6400 5500
-	-1   0    0    1   
-$EndComp
-$Comp
-L Test_Pad TP202
-U 1 1 56510AF7
-P 6400 5700
-F 0 "TP202" H 6600 5700 60  0000 C CNN
-F 1 "Test_Pad" H 6350 5850 60  0001 C CNN
-F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 6400 5700 60  0001 C CNN
-F 3 "" H 6400 5700 60  0000 C CNN
-	1    6400 5700
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6600 5500 6800 5500
 Wire Wire Line
@@ -463,4 +441,6 @@ Wire Wire Line
 	6600 1600 6700 1600
 Text Notes 6550 1850 0    60   ~ 0
 1 Amp hold current, 1210
+Wire Wire Line
+	6600 5500 6600 5700
 $EndSCHEMATC
