@@ -114,7 +114,6 @@ S 5600 900  1000 1000
 U 56341AF3
 F0 "FPGA Config" 50
 F1 "FPGA_Config.sch" 50
-F2 "FPGA_CLK" I R 6600 1100 60 
 $EndSheet
 $Sheet
 S 5100 3600 900  1400
@@ -219,8 +218,6 @@ Wire Wire Line
 	2400 1700 2500 1700
 Wire Wire Line
 	2400 1900 2500 1900
-Wire Wire Line
-	6600 1100 6700 1100
 Wire Wire Line
 	8200 1000 8300 1000
 Wire Wire Line
