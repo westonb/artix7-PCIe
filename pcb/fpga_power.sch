@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:artix7_pcie_pcb-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,7 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wbraun_ic_lib
-LIBS:pgmfoot
 LIBS:artix7_pcie_pcb-cache
 EELAYER 25 0
 EELAYER END
@@ -46,9 +46,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L XC7Axxt-FGG484 U401
+L XC7Axxt-FGG484-RESCUE-artix7_pcie_pcb U401
 U 8 1 56186E99
 P 2400 3250
+AR Path="/56186E99" Ref="U401"  Part="8" 
+AR Path="/56184126/56186E99" Ref="U401"  Part="8" 
 F 0 "U401" H 1500 650 60  0000 C CNN
 F 1 "XC7Axxt-FGG484" H 1800 5850 60  0000 C CNN
 F 2 "wbraun_smd:BGA_484_22x22_FULLARRAY_1MM" H 2400 3300 60  0001 C CNN
@@ -450,7 +452,7 @@ Connection ~ 3700 3200
 Wire Wire Line
 	3600 3800 3800 3800
 Wire Wire Line
-	3700 3800 3700 4200
+	3700 3800 3700 4300
 Wire Wire Line
 	3700 4200 3600 4200
 Connection ~ 3700 3800
@@ -464,11 +466,14 @@ Wire Wire Line
 	3600 4100 3700 4100
 Connection ~ 3700 4100
 Wire Wire Line
-	3600 4400 3800 4400
+	3600 4500 3800 4500
 Wire Wire Line
-	3700 4400 3700 4900
+	3700 4500 3700 5000
 Wire Wire Line
-	3700 4900 3600 4900
+	3700 5000 3600 5000
+Wire Wire Line
+	3600 4900 3700 4900
+Connection ~ 3700 4900
 Wire Wire Line
 	3600 4800 3700 4800
 Connection ~ 3700 4800
@@ -478,10 +483,7 @@ Connection ~ 3700 4700
 Wire Wire Line
 	3600 4600 3700 4600
 Connection ~ 3700 4600
-Wire Wire Line
-	3600 4500 3700 4500
 Connection ~ 3700 4500
-Connection ~ 3700 4400
 Wire Wire Line
 	1000 800  1200 800 
 Wire Wire Line
@@ -607,7 +609,7 @@ Text Label 3800 3100 0    60   ~ 0
 VCCO_16
 Text Label 3800 3800 0    60   ~ 0
 VCCO_34
-Text Label 3800 4400 0    60   ~ 0
+Text Label 3800 4500 0    60   ~ 0
 VCCO_35
 Wire Wire Line
 	10650 1350 10650 1400
@@ -1774,4 +1776,7 @@ F 3 "" H 8850 2650 60  0000 C CNN
 	1    8850 2650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3700 4300 3600 4300
+Connection ~ 3700 4200
 $EndSCHEMATC

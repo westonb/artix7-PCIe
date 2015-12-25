@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:artix7_pcie_pcb-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,7 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wbraun_ic_lib
-LIBS:pgmfoot
 LIBS:artix7_pcie_pcb-cache
 EELAYER 25 0
 EELAYER END
@@ -46,7 +46,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L XC7Axxt-FGG484 U401
+L XC7Axxt-FGG484-RESCUE-artix7_pcie_pcb U401
 U 5 1 565FC0A5
 P 3400 3950
 F 0 "U401" H 2500 1350 60  0000 C CNN

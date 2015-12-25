@@ -443,10 +443,4 @@ Text Notes 6550 1850 0    60   ~ 0
 1 Amp hold current, 1210
 Wire Wire Line
 	6600 5500 6600 5700
-Wire Wire Line
-	4900 1850 4900 2050
-Wire Wire Line
-	4900 2050 5150 2050
-Wire Wire Line
-	5150 2050 5150 2000
 $EndSCHEMATC

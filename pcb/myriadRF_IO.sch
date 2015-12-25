@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:artix7_pcie_pcb-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,7 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wbraun_ic_lib
-LIBS:pgmfoot
 LIBS:artix7_pcie_pcb-cache
 EELAYER 25 0
 EELAYER END
@@ -487,7 +487,7 @@ F 3 "" H 950 6450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L XC7Axxt-FGG484 U401
+L XC7Axxt-FGG484-RESCUE-artix7_pcie_pcb U401
 U 3 1 56341B2F
 P 6100 3450
 F 0 "U401" H 5200 850 60  0000 C CNN
@@ -768,7 +768,7 @@ RXCLK_FPGA
 Text HLabel 5100 7650 2    60   Input ~ 0
 RX_CLK_FPGA
 $Comp
-L XC7Axxt-FGG484 U401
+L XC7Axxt-FGG484-RESCUE-artix7_pcie_pcb U401
 U 4 1 56665963
 P 9400 3450
 F 0 "U401" H 8500 850 60  0000 C CNN
