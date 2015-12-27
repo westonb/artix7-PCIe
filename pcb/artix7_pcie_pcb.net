@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /Users/wbraun/Projects/artix7-PCIe/pcb/artix7_pcie_pcb.sch)
-    (date "Friday, December 25, 2015 'AMt' 02:31:00 AM")
-    (tool "Eeschema 4.0.0-rc2-1-stable")
+    (date "Saturday, December 26, 2015 'PMt' 06:21:15 PM")
+    (tool "Eeschema 4.0.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -2202,14 +2202,14 @@
         (pin (num Y21) (name IO_L9P_T1_DQS_14) (type BiDi))
         (pin (num Y22) (name IO_L9N_T1_DQS_D13_14) (type BiDi)))))
   (libraries
-    (library (logical device)
-      (uri "/Library/Application Support/kicad/library/device.lib"))
     (library (logical artix7_pcie_pcb-rescue)
       (uri /Users/wbraun/Projects/artix7-PCIe/pcb/artix7_pcie_pcb-rescue.lib))
-    (library (logical wbraun_ic_lib)
-      (uri /Users/wbraun/Projects/wbraun_kicad_library/wbraun_ic_lib.lib))
     (library (logical conn)
-      (uri "/Library/Application Support/kicad/library/conn.lib")))
+      (uri "/Library/Application Support/kicad/library/conn.lib"))
+    (library (logical device)
+      (uri "/Library/Application Support/kicad/library/device.lib"))
+    (library (logical wbraun_ic_lib)
+      (uri /Users/wbraun/Projects/wbraun_kicad_library/wbraun_ic_lib.lib)))
   (nets
     (net (code 1) (name /SFP/LOS)
       (node (ref J1101) (pin 8))
