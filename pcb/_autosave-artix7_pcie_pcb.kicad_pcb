@@ -39,7 +39,7 @@
   )
 
   (setup
-    (last_trace_width 0.35)
+    (last_trace_width 0.126)
     (user_trace_width 0.127)
     (user_trace_width 0.15)
     (user_trace_width 0.2)
@@ -76,9 +76,8 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF1F)
     (pcbplotparams
-      (layerselection 0x00000_00000004)
-      (usegerberextensions false)
-      (usegerberattributes true)
+      (layerselection 0x010fc_80000007)
+      (usegerberextensions true)
       (excludeedgelayer false)
       (linewidth 0.100000)
       (plotframeref false)
